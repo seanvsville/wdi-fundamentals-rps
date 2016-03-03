@@ -48,37 +48,37 @@ function getComputerMove(move) {
 function getWinner(playerMove,computerMove) {
     var winner;
     if (playerMove == 'rock' && computerMove == 'scissors'){
-    	winner = "player"
+    	winner = "player";
     	console.log("Player wins!");
     	}
     	
     	else if (playerMove == 'paper' && computerMove == 'rock'){
-    	winner = "player"
+    	winner = "player";
     	console.log("Player wins!");
     	}
     	
     	else if (playerMove == 'scissors' && computerMove == 'paper'){
-    	winner = "player"
+    	winner = "player";
     	console.log("Player wins!");
     	}
     	
     	else if (playerMove == 'rock' && computerMove == 'paper'){
-    	winner = "computer"
+    	winner = "computer";
     	console.log("Computer wins!");
     	}
     	
     	else if (playerMove == 'paper' && computerMove == 'scissors'){
-    	winner = "computer"
+    	winner = "computer";
     	console.log("Computer wins!");
     	}
     	
     	else if (playerMove == 'scissors' && computerMove == 'rock'){
-    	winner = "computer"
+    	winner = "computer";
     	console.log("Computer wins!");
     	}
     	
     	else {
-    		winner = "tie"
+    		winner = "tie";
     		console.log("It's a tie!");
     	}	
     	
