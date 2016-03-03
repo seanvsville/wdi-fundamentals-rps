@@ -25,22 +25,22 @@ function randomPlay() {
 
 function getPlayerMove(move) {
     var move;
-    if (move != null){
-        move = move;
+    if (move === null){
+        move = getInput();
     }
     else {
-        move = getInput();
+        move = move;
     }
     return move;
 }
 
 function getComputerMove(move) {
     var move;
-    if (move != null){
-        move = move;
+    if (move === null){
+        move = randomPlay();
     }
     else {
-        move = randomPlay();
+        move = move;
     }
     return move;
 }
