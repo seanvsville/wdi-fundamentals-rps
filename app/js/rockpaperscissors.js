@@ -11,9 +11,11 @@ function randomPlay() {
     var randomNumber = Math.random();
     if (randomNumber < 0.33) {
         return "rock";
-    } else if (randomNumber < 0.66) {
+    } 
+    else if (randomNumber < 0.66) {
         return "paper";
-    } else {
+    } 
+    else {
         return "scissors";
     }
 }
