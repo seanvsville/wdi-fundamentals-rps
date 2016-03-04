@@ -24,7 +24,6 @@ function randomPlay() {
 ////////////////////////////////////////////////
 
 function getPlayerMove(move) {
-    var move;
     if (move === null){
         move = getInput();
     }
@@ -35,7 +34,6 @@ function getPlayerMove(move) {
 }
 
 function getComputerMove(move) {
-    var move;
     if (move === null){
         move = randomPlay();
     }
@@ -47,32 +45,32 @@ function getComputerMove(move) {
 
 function getWinner(playerMove,computerMove) {
     var winner;
-    if (playerMove == 'rock' && computerMove == 'scissors'){
+    if (playerMove == 'rock' && computerMove == 'scissors') {
     	winner = "player";
     	console.log("Player wins!");
     	}
     	
-    	else if (playerMove == 'paper' && computerMove == 'rock'){
+    	else if (playerMove == 'paper' && computerMove == 'rock') {
     	winner = "player";
     	console.log("Player wins!");
     	}
     	
-    	else if (playerMove == 'scissors' && computerMove == 'paper'){
+    	else if (playerMove == 'scissors' && computerMove == 'paper') {
     	winner = "player";
     	console.log("Player wins!");
     	}
     	
-    	else if (playerMove == 'rock' && computerMove == 'paper'){
+    	else if (playerMove == 'rock' && computerMove == 'paper') {
     	winner = "computer";
     	console.log("Computer wins!");
     	}
     	
-    	else if (playerMove == 'paper' && computerMove == 'scissors'){
+    	else if (playerMove == 'paper' && computerMove == 'scissors') {
     	winner = "computer";
     	console.log("Computer wins!");
     	}
     	
-    	else if (playerMove == 'scissors' && computerMove == 'rock'){
+    	else if (playerMove == 'scissors' && computerMove == 'rock') {
     	winner = "computer";
     	console.log("Computer wins!");
     	}
